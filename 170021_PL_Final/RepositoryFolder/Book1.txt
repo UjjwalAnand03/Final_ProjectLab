@@ -1,0 +1,22 @@
+PREFACE TO
+THE REVISED EDITION
+In the first edition of this book, then called POET, The Psychology of Everyday Things, I started with these lines: “This is the book I
+always wanted to write, except I didn’t know it.” Today I do know it, so I simply say, “This is the book I always wanted to write.” This is a starter kit 
+for good design. It is intended to be enjoyable and informative for everyone: everyday people, technical people, designers, and nondesigners.
+One goal is to turn readers into great observers of the absurd, of the poor design that gives rise to so many of the problems of modern life, especially
+of modern technology. It will also turn them into observers of the good, of the ways in which thoughtful designers have worked to make our lives
+easier and smoother. Good design is actually a lot harder to notice than poor design, in part because good designs fit our needs
+so well that the design is invisible, serving us without drawing attention to itself. Bad design, on the other hand, screams out its inadequacies, making itself very noticeable.
+Along the way I lay out the fundamental principles required to eliminate problems, to turn our everyday stuff into enjoyable
+products that provide pleasure and satisfaction. The combination of good observation skills and good design principles is a powerful tool, one that
+everyone can use, even people who are not professional designers. Why? Because we are all designers in the sense that all of us deliberately design 
+our lives, our rooms, and the way we do things. We can also design workarounds, ways of overcoming the flaws of existing devices. So, one purpose 
+of this book is to give back your control over the products in your life: to know how to select usable and understandable ones, to know how to fix 
+those that aren’t so usable or understandable.
+The first edition of the book has lived a long and healthy life. Its name was quickly changed to Design of Everyday Things (DOET)
+to make the title less cute and more descriptive. DOET has been read by the general public and by designers. It has been assigned
+in courses and handed out as required readings in many companies. Now, more than twenty years after its release, the book is
+still popular. I am delighted by the response and by the number of people who correspond with me about it, who send me further
+examples of thoughtless, inane design, plus occasional examples of superb design. Many readers have told me that it has changed
+their lives, making them more sensitive to the problems of life and to the needs of people. Some changed their careers and became
+designers because of the book. The response has been amazing 
