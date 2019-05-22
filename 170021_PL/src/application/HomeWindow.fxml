@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="688.0" prefWidth="1255.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.DC">
+  <center>
+    <Pane prefHeight="573.0" prefWidth="880.0" BorderPane.alignment="CENTER">
+      <children>
+        <Label layoutX="27.0" layoutY="31.0" text="Search:">
+          <font>
+            <Font name="Calibri Bold" size="21.0" />
+          </font>
+        </Label>
+        <TextField layoutX="111.0" layoutY="29.0" prefHeight="31.0" prefWidth="392.0" />
+        <Button layoutX="528.0" layoutY="29.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="107.0" text="Search">
+          <font>
+            <Font size="16.0" />
+          </font>
+        </Button>
+        <Separator layoutY="80.0" prefHeight="5.0" prefWidth="1062.0" />
+        <MenuButton layoutX="711.0" layoutY="28.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="143.0" text="Sort Books" textAlignment="CENTER">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Prince: Low to High" />
+            <MenuItem mnemonicParsing="false" text="Price: High to Low" />
+            <MenuItem mnemonicParsing="false" text="Featured" />
+            <MenuItem mnemonicParsing="false" text="Avg. Customer Review" />
+            <MenuItem mnemonicParsing="false" text="Newest Arrival" />
+          </items>
+        </MenuButton>
+        <WebView fx:id="webView" layoutX="5.0" layoutY="80.0" prefHeight="574.0" prefWidth="1045.0" />
+      </children>
+    </Pane>
+  </center>
+  <left>
+    <SplitPane prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+          <children>
+            <Label layoutX="65.0" layoutY="50.0" prefHeight="21.0" prefWidth="69.0" text="Options">
+              <effect>
+                <InnerShadow color="#c37070">
+                  <input>
+                    <Glow />
+                  </input>
+                </InnerShadow>
+              </effect>
+              <font>
+                <Font name="System Bold" size="15.0" />
+              </font>
+            </Label>
+            <Button layoutX="14.0" layoutY="122.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="170.0" text="My Account" />
+            <Button layoutX="14.0" layoutY="193.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="171.0" text="Store" />
+            <Button layoutX="16.0" layoutY="259.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="166.0" text="Cart" />
+            <Button layoutX="15.0" layoutY="395.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="168.0" text="Favourite Book" />
+            <Button layoutX="16.0" layoutY="327.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="165.0" text="My Books" />
+            <Button layoutX="14.0" layoutY="451.0" mnemonicParsing="false" onAction="#launchFeedbackWindow" prefHeight="31.0" prefWidth="168.0" text="Feedback" />
+            <Button fx:id="zoomIn" layoutX="45.0" layoutY="491.0" mnemonicParsing="false" onAction="#zoomIn" prefHeight="24.0" prefWidth="108.0" text="Zoom In" />
+            <Button fx:id="zoomOut" layoutX="48.0" layoutY="537.0" mnemonicParsing="false" onAction="#zoomOut" prefHeight="31.0" prefWidth="101.0" text="Zoom Out " />
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+  </left>
+  <top>
+    <MenuBar prefHeight="0.0" prefWidth="1144.0" BorderPane.alignment="CENTER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Close" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Delete" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </top>
+</BorderPane>

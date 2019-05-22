@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="360.0" prefWidth="749.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Label layoutX="168.0" layoutY="27.0" prefHeight="39.0" prefWidth="214.0" text="Login for eBook">
+         <font>
+            <Font name="Calibri Bold Italic" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="115.0" prefHeight="21.0" prefWidth="84.0" text="LOGIN AS:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="464.0" layoutY="115.0" prefHeight="21.0" prefWidth="84.0" text="RollNo:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="168.0" text="Username">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="464.0" layoutY="165.0" prefHeight="21.0" prefWidth="100.0" text="DecimalNo:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         </Label>
+      <Label layoutX="63.0" layoutY="218.0" text="Password">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="464.0" layoutY="218.0" prefHeight="21.0" prefWidth="84.0" text="Sum:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+          </Label>
+      <TextField fx:id="username" layoutX="166.0" layoutY="167.0" promptText="Enter Your UserName" />
+      <PasswordField fx:id="password" layoutX="166.0" layoutY="217.0" promptText="Enter Your Password" />
+      <TextField fx:id="rollno" layoutX="570.0" layoutY="115.0" promptText="Enter Your Roll No." />
+      <TextField fx:id="decimal" layoutX="570.0" layoutY="160.0" promptText="Enter the Number" />
+      <TextField fx:id="result" layoutX="570.0" layoutY="218.0" />
+      <Button fx:id="login" layoutX="133.0" layoutY="294.0" mnemonicParsing="false" onAction="#launchRelevantWindow" text="LogIn">
+     	<font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="275.0" layoutY="294.0" mnemonicParsing="false" onAction="#SignUp" text="Sign Up">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="570.0" layoutY="294.0" mnemonicParsing="false" onAction="#Addition" text="Add">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="message" layoutX="159.0" layoutY="257.0" prefHeight="21.0" prefWidth="221.0" textFill="#e81b1b" />
+      <ComboBox fx:id="cb_roles" layoutX="168.0" layoutY="110.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

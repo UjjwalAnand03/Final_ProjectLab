@@ -1,0 +1,17 @@
+Why a Revised Edition?
+In the twenty-five years that have passed since the first edition of the book, technology has undergone massive change. Neither cell phones nor the 
+Internet were in widespread usage when I wrote the book. Home networks were unheard of. Moore’s law proclaims that the power of computer 
+processors doubles roughly every two years. This means that today’s computers are five thousand times more powerful than the ones available when 
+the book was first written.
+Although the fundamental design principles of The Design of Everyday Things are still as true and as important as when the first edition was written, 
+the examples were badly out of date. “What is a slide projector?” students ask. Even if nothing else was to be changed, the examples had to be 
+updated.The principles of effective design also had to be brought up to date. Human-centered design (HCD) has emerged since the first edition, 
+partially inspired by that book. This current edition has an entire chapter devoted to the HCD process of product development. The first edition of 
+the book focused upon making products understandable and usable. The total experience of a product covers much more than its usability: 
+aesthetics, pleasure, and fun play critically important roles. There was no discussion of pleasure, enjoyment, or emotion. Emotion is so important that 
+I wrote an entire book, Emotional Design, about the role it plays in design 
+These issues are also now included in this edition. My experiences in industry have taught me about the complexities of the real world, how cost and 
+schedules are critical, the need to pay attention to competition, and the importance of multi disciplinary teams. I learned that the successful product 
+has to appeal to customers, and the criteria they use to determine what to purchase may have surprisingly little overlap with the aspects that are 
+important during usage. The best products do not always succeed. Brilliant new technologies might take decades to become accepted. To 
+understand products, it is not enough to understand design or technology: it is critical to understand business.

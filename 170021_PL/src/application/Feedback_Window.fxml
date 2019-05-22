@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="501.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="62.0" text="Sending Feedback  To " textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="feedback_recievers" layoutX="175.0" layoutY="56.0" prefHeight="31.0" prefWidth="212.0" promptText="Select Reciever" />
+      <Button layoutX="88.0" layoutY="437.0" mnemonicParsing="false" text="Send Feedback" />
+      <Button layoutX="237.0" layoutY="437.0" mnemonicParsing="false" text="&lt;&lt;Back" />
+      <Label layoutX="69.0" layoutY="14.0" text="Help Us Improve...!" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria Math" size="34.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="45.0" layoutY="115.0" prefHeight="281.0" prefWidth="353.0" promptText="Your Feedback Here..." />
+      <Label layoutX="67.0" layoutY="396.0" text="Ace Enterprises | Ebook Management Tool" />
+   </children>
+</AnchorPane>
